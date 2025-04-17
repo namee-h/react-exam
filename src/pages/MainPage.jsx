@@ -3,7 +3,7 @@ import { Box, CircularProgress, Grid } from '@mui/material'
 import BookCard from '../components/BookCard'
 import axios from 'axios'
 import { useQuery } from '@tanstack/react-query'
-import SearchBar from '../components/Searchbar'
+import SearchBar from '../components/SearchBar'
 
 const MainPage = () => {
   const handleSearch=(query)=>{
